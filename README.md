@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Maureen Kirotich
 
 You can use the [editor on GitHub](https://github.com/Maureen-J-kirotich/My-htmlPractice/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
