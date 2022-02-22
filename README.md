@@ -1,9 +1,9 @@
-## Front end web developer by Maureen Kirotich
+## Maureen Kirotich
 Hi! welcome to my Website.
 You can use the [editor on GitHub](https://github.com/Maureen-J-kirotich/My-htmlPractice/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-### Web development
-My name is maureen kirotich a student at Kabarak university Pursuing doing information technology.Currently  am learning to  be a frontend web developer using html,css and javascript.
+### Frontend Web development.
+My name is maureen kirotich a student at Kabarak university Pursuing Bachelor of Business and  information technology.Currently  am learning to  be a frontend web developer using html,css and javascript.
 
 
 
