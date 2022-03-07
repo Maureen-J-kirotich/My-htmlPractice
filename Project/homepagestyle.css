@@ -84,14 +84,24 @@ h1{
 	float: left;
 	margin: 5px;
 }
+#run{
+	font-family: calibri;
+width: 46%;
+font-size: 16px;
+padding: 20px 20px 20px 20px;
+float: right;
+margin-top: -300px;
+margin-right:0px;
+
+}
 #athlete{
 	font-family: calibri;
 width: 46%;
-font-size: 20px;
+font-size: 16px;
 padding: 20px 20px 20px 20px;
 float: right;
-margin-top: -340px;
-margin-right: 20px;
+margin-top: -380px;
+margin-right:0px;
 			}
 			button{
 	margin-top: 20px;
@@ -102,8 +112,8 @@ margin-right: 20px;
        color: whitesmoke;
 }
   .image2{
-  	max-width:100%;
-    height:auto;
+  	margin-top: 40px;
+  	margin-left: 40px;    
   }
   footer{
   	background-color: #000137;
