@@ -1,0 +1,24 @@
+.outer{
+	background-color: grey;
+	width: 80%;
+	height: 500px;
+	margin: 10px;}
+
+	.both{
+	font-family: calibri ;
+
+}
+#theright{
+	float: right;
+	margin-right: 400px;
+	padding-top: -400px
+}
+#theleft{
+	margin-left: 100px;
+	padding-top: 100px;
+    font-size: 30px;
+}
+#email{
+	margin-left: 100px;
+	
+}
