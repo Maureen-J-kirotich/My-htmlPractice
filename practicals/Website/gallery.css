@@ -1,0 +1,14 @@
+#image1{
+	width: 20%;
+	height: 200px;
+	float: right;
+	
+}
+#image2{
+	float: left;
+}
+
+.out{
+	width: 60%;
+	height: 500px;
+}

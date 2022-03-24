@@ -1,0 +1,74 @@
+.lower{
+	width: 100%;
+	font-family: helvetica;
+	height: 700px;
+
+}
+h2{
+	margin-left: 100px;
+}
+#first{
+width: 50%;
+font-family: franklin gothic;
+margin-left: 30px;	
+
+}
+p{
+	padding: 20px;
+}
+input[type=text], input[type=textarea] {
+  width: 60%;
+  padding: 10px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 12px;
+
+}
+#blank{
+	background-color: #dededc;
+	width: 30%;
+	height: 450px;
+	margin-left: 300px;
+	padding: 20px 20px 20px 50px;
+}
+button{
+	margin-top: 40px;
+      width: 140px;
+       border: 0;	
+       padding: 12px 10px;
+       background-color: maroon;
+       color: whitesmoke;
+}
+		.contain{
+	background-color: #212127;
+	font-family: franklin  gothic;
+	height: 180px;
+	width: 100%;
+	position: absolute;
+
+
+}
+#downlinks{
+	display: inline-block;
+	color: #dededc;
+	font-size: 11px;
+	text-decoration: non;
+	width: 100%;
+	margin-left: 100px;
+	list-style: none;
+
+}
+#one{
+float:left ;
+width: 20%;
+}
+#two{
+float:left;
+width: 10%;
+}
+#tree{
+	margin: 0 auto;
+	width: 20%;
+	}

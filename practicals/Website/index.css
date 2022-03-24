@@ -1,0 +1,81 @@
+.container{
+	font-family: Franklin gothic;
+}
+.top{
+	background-color:lightpink ;
+	margin-bottom: 10px;
+	padding-top: 1px;
+	height: 150px;
+}
+header li{
+	list-style: none;
+}
+a:link,a:visited{
+	text-decoration: none;
+	float: right;
+	background-color:#000137 ;
+	color: white;
+	margin: 5px ;
+	padding: 7px 18px 7px 18px;
+	border-radius: 20px;
+}
+a:hover,a:active{
+			background-color: lightgray;
+			color: black;}
+
+.outbox{
+width: 100%;
+padding-top: 1px;
+	background-image: url(https://cdn.pixabay.com/photo/2017/07/31/16/12/laptop-2558666__340.jpg);
+	height: 550px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.innerbox{
+	background-image: linear-gradient(to bottom right,palevioletred ,yellow);
+	width: 30%;
+	height: 350px;
+	padding: 20px;
+	margin: 50px;
+	font-family: helvetica;
+	margin-left: 400px;
+
+}
+h1{
+	margin-left: 50px;
+	font-size: 50px;
+}
+h3{
+	font-size: 30px;
+}
+
+		.contain{
+	background-color: #212127;
+	font-family: franklin  gothic;
+	height: 180px;
+	width: 100%;
+
+
+}
+#downlinks{
+	display: inline-block;
+	color: #dededc;
+	font-size: 12px;
+	text-decoration: non;
+	width: 100%;
+	margin-left: 100px;
+	list-style: none;
+
+}
+#one{
+float:left ;
+width: 20%;
+}
+#two{
+float:left;
+width: 10%;
+}
+#tree{
+	margin: 0 auto;
+	width: 20%;
+	}

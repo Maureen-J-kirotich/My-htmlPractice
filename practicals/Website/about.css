@@ -1,0 +1,90 @@
+.container{
+
+}
+button{
+	margin-top: 40px;
+      width: 140px;
+       border: 0;	
+       padding: 12px 10px;
+       background-color: maroon;
+       color: whitesmoke;
+}
+       h2{
+        float: left;
+        margin-left: 450px;
+        width: 100%;
+        text-shadow: honeydew;
+        font-size: 35px;
+       }
+       #top{
+        width: 87%;
+        background-color: #dededc;
+        margin-left: 70px;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+                rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            
+       }
+
+       #one{
+       width: 30%;
+       background-color: #dededc;
+       float: left;
+       height: 330px;
+       }
+       #two{
+        margin-left: 40px;
+        float: left;
+        background-color:#dededc ;
+        width: 30%;
+        height: 330px;
+    }
+       #tree{
+        background-color: #dededc;
+        width: 30%;
+        float: right;
+        height: 330px;
+       }
+       h3{
+    text-align: center;
+
+}
+       .three{
+        padding: 0px 50px 50px 50px;
+        margin: 20px;
+        list-style: none;
+        text-align: center;
+        height: 320px;
+
+       }
+              .contain{
+       background-color: #212127;
+       font-family: franklin  gothic;
+       height: 180px;
+       width: 100%;
+       position: absolute;
+     
+
+}
+#downlinks{
+       display: inline-block;
+       color: #dededc;
+       font-size: 11px;
+       text-decoration: non;
+       width: 100%;
+       margin-left: 100px;
+       list-style: none;
+
+}
+#on{
+float:left ;
+width: 20%;
+}
+#tw{
+float:left;
+width: 10%;
+}
+#last{
+       margin: 0 auto;
+       width: 20%;
+       }
