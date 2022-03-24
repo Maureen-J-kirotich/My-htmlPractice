@@ -1,4 +1,6 @@
+.container{
 
+}
 button{
 	margin-top: 40px;
       width: 140px;
@@ -31,7 +33,7 @@ button{
        height: 330px;
        }
        #two{
-        margin-left: 30px;
+        margin-left: 40px;
         float: left;
         background-color:#dededc ;
         width: 30%;
@@ -52,5 +54,37 @@ button{
         margin: 20px;
         list-style: none;
         text-align: center;
+        height: 320px;
 
+       }
+              .contain{
+       background-color: #212127;
+       font-family: franklin  gothic;
+       height: 180px;
+       width: 100%;
+       position: absolute;
+     
+
+}
+#downlinks{
+       display: inline-block;
+       color: #dededc;
+       font-size: 11px;
+       text-decoration: non;
+       width: 100%;
+       margin-left: 100px;
+       list-style: none;
+
+}
+#on{
+float:left ;
+width: 20%;
+}
+#tw{
+float:left;
+width: 10%;
+}
+#last{
+       margin: 0 auto;
+       width: 20%;
        }

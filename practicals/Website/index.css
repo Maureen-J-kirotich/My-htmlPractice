@@ -3,7 +3,6 @@
 }
 .top{
 	background-color:lightpink ;
-	border-color: gradient;
 	margin-bottom: 10px;
 	padding-top: 1px;
 	height: 150px;
@@ -25,12 +24,12 @@ a:hover,a:active{
 			color: black;}
 
 .outbox{
-
+width: 100%;
 padding-top: 1px;
-	background-image: url(https://cdn.pixabay.com/photo/2017/07/31/16/12/laptop-2558666_960_720.jpg);
-	height: 530px;
-	background-repeat: none;
-
+	background-image: url(https://cdn.pixabay.com/photo/2017/07/31/16/12/laptop-2558666__340.jpg);
+	height: 550px;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 .innerbox{
 	background-image: linear-gradient(to bottom right,palevioletred ,yellow);
@@ -39,6 +38,7 @@ padding-top: 1px;
 	padding: 20px;
 	margin: 50px;
 	font-family: helvetica;
+	margin-left: 400px;
 
 }
 h1{
@@ -49,24 +49,33 @@ h3{
 	font-size: 30px;
 }
 
+		.contain{
+	background-color: #212127;
+	font-family: franklin  gothic;
+	height: 180px;
+	width: 100%;
 
 
+}
+#downlinks{
+	display: inline-block;
+	color: #dededc;
+	font-size: 12px;
+	text-decoration: non;
+	width: 100%;
+	margin-left: 100px;
+	list-style: none;
 
-
-/*#links{
-		list-style: none;}
-		a:link,a:visited {
-			text-decoration: none;
-			background-color: #000137;
-			color: white;
-			display: block;
-			width: 100px;
-			margin: 4px;
-			border-radius: 20px;
-			text-align: center;
-			float: right;
-			padding-right:10px;
-			padding: 5px 15px 10px 15px;
-			position: topright;
-			clear: left;
-		}
+}
+#one{
+float:left ;
+width: 20%;
+}
+#two{
+float:left;
+width: 10%;
+}
+#tree{
+	margin: 0 auto;
+	width: 20%;
+	}

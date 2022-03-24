@@ -3,13 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>alert</title>
+	<title>javascript alert</title>
 </head>
-
 <body>
-	<h2>Java script Nested if</h2>
-<p id="demo"></p>
-<script>
+	<script>
+		
 	function find(){
 		var a=3
 		var b=50
@@ -31,8 +29,16 @@
 				g=c;
 			}
 		}
-		document.getElementById("demo").innerHTML="+g";
+		
 	}
-</script>
+	function show_alert()
+	{
+		document.getElementById("find").value=""+g
+	}
+	</script>
+	<p> show alert</p>
+	<input type="button"
+	onclick="show_alert()"value="alert"/>
+
 </body>
 </html>
