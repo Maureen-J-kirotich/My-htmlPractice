@@ -11,7 +11,7 @@ h2{
 width: 50%;
 font-family: franklin gothic;
 margin-left: 30px;	
-
+float: left;
 }
 p{
 	padding: 20px;
@@ -30,8 +30,11 @@ input[type=text], input[type=textarea] {
 	background-color: #dededc;
 	width: 30%;
 	height: 450px;
-	margin-left: 300px;
+	margin:20px;
 	padding: 20px 20px 20px 50px;
+	float: right;
+	margin-right: 100px;
+
 }
 button{
 	margin-top: 40px;
@@ -72,3 +75,13 @@ width: 10%;
 	margin: 0 auto;
 	width: 20%;
 	}
+	.own{
+	text-align: center;
+	background-color:lightgray ;
+	padding: 10px;
+	width: 50%;
+	float: left;
+}
+#rossy{
+font-size: 40px;
+}

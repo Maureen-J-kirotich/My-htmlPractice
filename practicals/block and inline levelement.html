@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Block level and inline element</title>
+</head>
+<style type="text/css">
+	*{box-sizing: border-box;
+
+	}
+	
+	li{
+		list-style: none;
+		display: inline;
+
+	}
+	a:link ,a:visited{
+		list-style: none;
+		text-decoration: none;
+		margin: 5px;
+		padding: 8px;
+		background-color: darkgreen;
+		color: white;
+		border-radius: 0px;
+		float: right;
+		font-size: 18px;
+		font-weight: bold;
+		font-family: helvetica;
+		margin-top: 25px;
+		
+	}
+
+	.links{
+		background-color: darkgreen;
+		max-width: 100%;
+		height: 100px;
+		position: sticky;
+		top: 0;
+	}
+
+	a:hover, a:active{
+		background-color: black;
+		color: white;
+	}
+.content{
+	
+	background-color: lightgrey;
+	
+}
+#div{
+	float: left;
+}
+
+#one{
+	max-width: 30%;
+	background-color: yellow;
+	display: block;
+	padding: 10px;
+	margin: 5px;
+	float: left;
+    
+	
+}	
+#two{
+	max-width: 30%;
+	background-color: green;
+	display: block;
+	padding: 10px;
+	margin: 5px;
+	float: left;
+}	
+#three{
+	max-width: 30%;
+	background-color: darkred;
+	display: block;
+	padding: 10px;
+	margin: 5px;
+	float: left;
+clear: right;
+
+	
+}
+/*.content{
+	max-width: 100%;
+}
+
+div:hover {
+	background-color: lightgrey;
+	font-size: 15px;
+}
+*/
+.img-container{
+	float: left;
+  margin: auto;
+  padding: 5px;
+  display: block;
+
+}
+.last{
+	max-width: 50%;
+	display: block;
+	margin-top: 500px;
+
+}
+body{
+	background-color: lightgray;
+}
+.four{
+	display: block;
+	background-color: maroon;
+	float: bottom;
+
+}
+
+</style>
+<body>
+	<div class="container">
+<div class="links">
+	<ul>
+		<li><a href="mywebsite.html">log in</a></li>
+		<li><a href="mywebsite.html">subscribe</a></li>
+		<li><a href="mywebsite.html">about</a></li>
+		<li><a href="mywebsite.html">home</a></li>
+	</ul>
+</div>
+
+<div class= "content">
+	<div id="one">
+	ONE<br>
+Setting the width of a block-level element will prevent it from stretching out to the edges of its container. Then, you can set the margins to auto, to horizontally center the element within its container. The element will take up the specified width, and the remaining space will be split equally between the two margins:</div>
+	<div id="two">TWO  <br>Setting the width of a block-level element will prevent it from stretching out to the edges of its container. Then, you can set the margins to auto, to horizontally center the element within its container. The element will take up the specified width, and the remaining space will be split equally between the two margins:</div>
+	<div id="three"> THREE<br>
+	Setting the width of a block-level element will prevent it from stretching out to the edges of its container. Then, you can set the margins to auto, to horizontally center the element within its container. The element will take up the specified width, and the remaining space will be split equally between the two margins:</div>
+
+</div>
+<div class="image">
+	<div class="img-container">
+	<img src="birdsunset.jpg" style=width:350px;height:350px; >
+</div>
+
+<div class="img-container">
+	<img src="tree.jpg"style=width:350px;height:350px; >
+</div>
+<div class="img-container">
+	<img src="flower.jpg" style=width:350px;height:350px;>
+</div>
+</div>
+<div class="four">
+	Setting the width of a block-level element will prevent it from stretching out to the edges of its container. Then, you can set the margins to auto, to horizontally center the element within its container. The element will take up the specified width, and the remaining space will be split equally between the two margins:
+</div>
+
+
+<footer>
+	<div class="last" style=background-color:blue;>
+		@Therose Copyrights.
+
+	</div>
+</footer>
+</body>
+</html>

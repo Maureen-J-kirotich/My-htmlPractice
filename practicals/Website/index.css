@@ -6,6 +6,8 @@
 	margin-bottom: 10px;
 	padding-top: 1px;
 	height: 150px;
+	position: sticky;
+	top: 0;
 }
 header li{
 	list-style: none;
@@ -78,4 +80,7 @@ width: 10%;
 #tree{
 	margin: 0 auto;
 	width: 20%;
+	}
+	h2{
+		margin-left: 50px;
 	}
