@@ -5,40 +5,94 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>javascript alert</title>
 </head>
+<style>
+	*{box-sizing: border-box;}
+	header{
+		max-width: 100%;
+		background-color: lightgray;
+		height: 150px;
+		text-align: center;
+		padding: 20px;
+	}
+	nav{
+		background-color: darkgray;
+		max-width: 100%;
+		height: 70px;
+
+	}
+	nav li{
+		display: inline;
+		list-style: none;
+
+	}
+	a.nav:link , a.nav:visited{
+		float: right;
+		color: black;
+		text-decoration: none;
+		padding: 7px;
+		font-weight: bold;
+		margin-top: 25px;
+	}
+	a.nav:hover ,a.nav:active{
+		background-color: black;
+		color: white;
+	}
+	.side-bar{
+		max-width: 33.1%;
+		background-color: lightgray;
+		height: 200px;
+       
+	}
+	.content{
+		background-color: darkgray;
+		
+	}
+	.side-bar-2{
+		max-width: 66%;
+		background-color: yellow;
+		height: 200px;
+		display: block;
+	}
+</style>
 <body>
-	<script>
-		
-	function find(){
-		var a=3
-		var b=50
-		var c=80
-		var g=0
-		if (a>b) {
-			if (a>c) {
-				g=a;
-			}
-			else {g=c;
-			}
-		}
-		else{
-			if 
-			(b>c){
-				g=b
-			}
-			else{
-				g=c;
-			}
-		}
-		
-	}
-	function show_alert()
-	{
-		document.getElementById("find").value=""+g
-	}
-	</script>
-	<p> show alert</p>
-	<input type="button"
-	onclick="show_alert()"value="alert"/>
+	<div class="container">
+<header>
+	<h1>Mildy store</h1>
+</header>
+<nav>
+	<ul>
+		<li><a href="cities.html" class="nav" >Home page</a></li>
+			<li><a href="thank.html" class="nav">Buy</a></li>
+				<li><a href="thank.html" class="nav">subscribe</a></li>
+					<li><a href="thank.html" class="nav">Cart</a></li>
+	</ul>
+</nav>
+<div class="content">
+	<div class="side-bar">
+		<h3>The Side bar
+			<ul>
+				<li><a href="thank.html" class="side-bar">Clothing</a></li>
+				<li><a href="thank.html" class="side-bar">Kitchen ware</a></li>
+				<li><a href="thank.html" class="side-bar">Electricals</a></li>
+				<li><a href="thank.html" class="side-bar">Toys</a></li>
+			</ul>
+	</div>
+
+	<div class="side-bar-2">
+		This is the main content
+	</div>
+</div>
+
+<footer>
+	<div class="foot">
+		www.the star.com<br>
+		@the rosecopyright.
+	</div>
+</footer>
+
+
+
+	
 
 </body>
 </html>
