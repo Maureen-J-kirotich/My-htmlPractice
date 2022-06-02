@@ -97,31 +97,41 @@ div:hover {
   display: block;
 
 }
-.last{
-	max-width: 50%;
-	display: block;
-	margin-top: 500px;
+#last{
+	max-width: 100%;
+	margin-top: 0px;
+background-color: black;
+color: whitesmoke;
+height: 200px;
+text-align: center;
+position: buttom;
 
 }
 body{
 	background-color: lightgray;
 }
-.four{
-	display: block;
-	background-color: maroon;
-	float: bottom;
+@media screen and (max-width: 600px)
+{
+	#one, #two ,#three {
+		float: none;
+		max-width: 100%;
+		display: block;
+		height: auto;
 
+
+	}
 }
+
 
 </style>
 <body>
 	<div class="container">
 <div class="links">
 	<ul>
-		<li><a href="mywebsite.html">log in</a></li>
-		<li><a href="mywebsite.html">subscribe</a></li>
-		<li><a href="mywebsite.html">about</a></li>
-		<li><a href="mywebsite.html">home</a></li>
+		<li><a href="mywebsite.html">Log in</a></li>
+		<li><a href="mywebsite.html">Subscribe</a></li>
+		<li><a href="mywebsite.html">About</a></li>
+		<li><a href="mywebsite.html">Home</a></li>
 	</ul>
 </div>
 
@@ -136,26 +146,22 @@ Setting the width of a block-level element will prevent it from stretching out t
 </div>
 <div class="image">
 	<div class="img-container">
-	<img src="birdsunset.jpg" style=width:350px;height:350px; >
+	<img src="birdsunset.jpg" style=width:350px;height:350px; border-image:10px solid transparent; >
 </div>
 
 <div class="img-container">
-	<img src="tree.jpg"style=width:350px;height:350px; >
+	<img src="tree.jpg"style=width:350px;height:350px; object-fit:contain; >
 </div>
 <div class="img-container">
 	<img src="flower.jpg" style=width:350px;height:350px;>
 </div>
 </div>
-<div class="four">
-	Setting the width of a block-level element will prevent it from stretching out to the edges of its container. Then, you can set the margins to auto, to horizontally center the element within its container. The element will take up the specified width, and the remaining space will be split equally between the two margins:
-</div>
-
-
+<!--
 <footer>
-	<div class="last" style=background-color:blue;>
+	<div id="last">
 		@Therose Copyrights.
 
 	</div>
-</footer>
+</footer>-->
 </body>
 </html>
